@@ -13,7 +13,6 @@
 		592035721FFA4CB300F688CF /* MVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592035711FFA4CB300F688CF /* MVVMTests.swift */; };
 		5920357D1FFA4CB300F688CF /* MVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920357C1FFA4CB300F688CF /* MVVMUITests.swift */; };
 		5920358C1FFA4DE400F688CF /* FSPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920358B1FFA4DE400F688CF /* FSPerson.swift */; };
-		5920358F1FFA4E2E00F688CF /* FSGreetingViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920358E1FFA4E2E00F688CF /* FSGreetingViewModelProtocol.swift */; };
 		592035911FFA4E7100F688CF /* FSGreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592035901FFA4E7100F688CF /* FSGreetingViewModel.swift */; };
 		592035971FFA507000F688CF /* FSGreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592035951FFA507000F688CF /* FSGreetingViewController.swift */; };
 		592035981FFA507000F688CF /* FSGreetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 592035961FFA507000F688CF /* FSGreetingViewController.xib */; };
@@ -49,7 +48,6 @@
 		5920357C1FFA4CB300F688CF /* MVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMUITests.swift; sourceTree = "<group>"; };
 		5920357E1FFA4CB300F688CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5920358B1FFA4DE400F688CF /* FSPerson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPerson.swift; sourceTree = "<group>"; };
-		5920358E1FFA4E2E00F688CF /* FSGreetingViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSGreetingViewModelProtocol.swift; sourceTree = "<group>"; };
 		592035901FFA4E7100F688CF /* FSGreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSGreetingViewModel.swift; sourceTree = "<group>"; };
 		592035951FFA507000F688CF /* FSGreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSGreetingViewController.swift; sourceTree = "<group>"; };
 		592035961FFA507000F688CF /* FSGreetingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSGreetingViewController.xib; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 		5920358D1FFA4E0900F688CF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				5920358E1FFA4E2E00F688CF /* FSGreetingViewModelProtocol.swift */,
 				592035901FFA4E7100F688CF /* FSGreetingViewModel.swift */,
 			);
 			path = ViewModel;
@@ -296,7 +293,6 @@
 				5920358C1FFA4DE400F688CF /* FSPerson.swift in Sources */,
 				592035971FFA507000F688CF /* FSGreetingViewController.swift in Sources */,
 				592035911FFA4E7100F688CF /* FSGreetingViewModel.swift in Sources */,
-				5920358F1FFA4E2E00F688CF /* FSGreetingViewModelProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

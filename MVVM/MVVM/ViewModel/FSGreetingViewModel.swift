@@ -8,6 +8,13 @@
 
 import Foundation
 
+protocol FSGreetingViewModelProtocol: class {
+    var greeting: String? { get }
+    var greetingDidChange: ((FSGreetingViewModelProtocol) -> ())? { get set } // function to call when greeting did change
+    init(person: FSPerson)
+    func showGreeting()
+}
+
 class FSGreetingViewModel : FSGreetingViewModelProtocol {
     let person: FSPerson
     var greeting: String? {

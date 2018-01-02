@@ -15,8 +15,6 @@
 		592035451FFA2ED800F688CF /* FSPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592035441FFA2ED800F688CF /* FSPerson.swift */; };
 		592035481FFA2F5700F688CF /* FSGreetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592035461FFA2F5700F688CF /* FSGreetingViewController.swift */; };
 		592035491FFA2F5700F688CF /* FSGreetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 592035471FFA2F5700F688CF /* FSGreetingViewController.xib */; };
-		5920354B1FFA334400F688CF /* FSGreetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920354A1FFA334400F688CF /* FSGreetingView.swift */; };
-		5920354D1FFA339100F688CF /* FSGreetingViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920354C1FFA339100F688CF /* FSGreetingViewPresenter.swift */; };
 		5920354F1FFA33DF00F688CF /* FSGreetingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5920354E1FFA33DF00F688CF /* FSGreetingPresenter.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,8 +50,6 @@
 		592035441FFA2ED800F688CF /* FSPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSPerson.swift; sourceTree = "<group>"; };
 		592035461FFA2F5700F688CF /* FSGreetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSGreetingViewController.swift; sourceTree = "<group>"; };
 		592035471FFA2F5700F688CF /* FSGreetingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FSGreetingViewController.xib; sourceTree = "<group>"; };
-		5920354A1FFA334400F688CF /* FSGreetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSGreetingView.swift; sourceTree = "<group>"; };
-		5920354C1FFA339100F688CF /* FSGreetingViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSGreetingViewPresenter.swift; sourceTree = "<group>"; };
 		5920354E1FFA33DF00F688CF /* FSGreetingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FSGreetingPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,8 +150,6 @@
 		592035431FFA2EB000F688CF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				5920354C1FFA339100F688CF /* FSGreetingViewPresenter.swift */,
-				5920354A1FFA334400F688CF /* FSGreetingView.swift */,
 				592035441FFA2ED800F688CF /* FSPerson.swift */,
 			);
 			path = Model;
@@ -295,10 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5920354D1FFA339100F688CF /* FSGreetingViewPresenter.swift in Sources */,
 				5920354F1FFA33DF00F688CF /* FSGreetingPresenter.swift in Sources */,
 				592035481FFA2F5700F688CF /* FSGreetingViewController.swift in Sources */,
-				5920354B1FFA334400F688CF /* FSGreetingView.swift in Sources */,
 				592035141FFA2E2900F688CF /* AppDelegate.swift in Sources */,
 				592035451FFA2ED800F688CF /* FSPerson.swift in Sources */,
 			);

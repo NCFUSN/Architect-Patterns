@@ -8,6 +8,15 @@
 
 import Foundation
 
+protocol FSGreetingView: class {
+    func setGreeting(greeting: String)
+}
+
+protocol FSGreetingViewPresenter {
+    init(view: FSGreetingView, person: FSPerson)
+    func showGreeting()
+}
+
 class FSGreetingPresenter : FSGreetingViewPresenter {
     
     unowned let view: FSGreetingView
